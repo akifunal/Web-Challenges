@@ -202,7 +202,11 @@ body {
 
 @media (max-width: 914px) {
   .row {
-    display: block;
+    flex-direction: column;
+  }
+
+  .hero {
+    text-align: center;
   }
 
   .rated-cards {
